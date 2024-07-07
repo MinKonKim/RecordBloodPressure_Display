@@ -12,10 +12,10 @@ function Ver2() {
   };
 
   return (
-    <div className="flex flex-col h-[100%] ">
+    <div className="flex flex-col h-[100%]">
       <Header />
-      <div className="flex flex-col justify-between">
-        <h1 className="text-2xl font-bold flex pb-3 my-2 ml-4">측정값 입력</h1>
+      <div className="flex flex-col mb-[20rem] py-3 ">
+        <h1 className="text-2xl font-bold flex py-3 my-2 ml-4">측정값 입력</h1>
         <form className="flex flex-col items-center h-[181px] gap-3">
           <div>
             <Input
@@ -47,7 +47,7 @@ function Ver2() {
         </form>
       </div>
       <button
-        className={`text-xl  font-semibold w-[350px] h-[56px] rounded-[6px] mx-auto mb-10
+        className={`text-xl mt-5 font-semibold w-[350px] h-[56px] rounded-[6px] mx-auto mb-10
         ${
           isFormValid()
             ? "bg-[#0AC262] text-white"

@@ -13,7 +13,7 @@ function Ver1() {
   return (
     <div className="flex flex-col h-[100%] justify-between">
       <Header />
-      <main className="flex flex-col p-5 mb-[20rem] max-h-[742px] mx-auto">
+      <main className="flex flex-col py-3 top-0 mb-[20rem] max-h-[742px] mx-auto">
         <h1 className="text-2xl font-bold flex pb-3 my-2">측정값 입력</h1>
         <form className="flex flex-col border rounded-[16px] items-center h-[181px] w-[350px]">
           <Input

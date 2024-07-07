@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="bg-white mt-5 w-[24rem] h-[102px] top-0 left-0 z-10">
       <div className="flex justify-between items-center ">
-        <div className="ml-10">9:41</div>
+        <div className="ml-10 font-semibold">9:41</div>
         <div className="flex gap-2 mr-10  ">
           <img src={Cellular} alt="Cellular" />
           <img src={Wifi} alt="Wifi" />
