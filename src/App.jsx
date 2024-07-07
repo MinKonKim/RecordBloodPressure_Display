@@ -1,12 +1,15 @@
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
-import Ver2 from "./components/Ver2";
-import Layout from "./layout/layout";
-
+import Ver1Page from "./pages/Ver1Page";
+import Ver2Page from "./pages/Ver2Page";
 function App() {
   return (
-    <Layout>
-      <Ver2 />
-    </Layout>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Ver1Page />} />
+        <Route path="/ver2" element={<Ver2Page />} />
+      </Routes>
+    </Router>
   );
 }
 
